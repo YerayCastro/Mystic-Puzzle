@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CBED0122A62951600CE70B4 /* MysticPuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBED0112A62951600CE70B4 /* MysticPuzzleApp.swift */; };
+		3CBED0142A62951600CE70B4 /* MysticPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBED0132A62951600CE70B4 /* MysticPuzzleView.swift */; };
+		3CBED0162A62951800CE70B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBED0152A62951800CE70B4 /* Assets.xcassets */; };
+		3CBED01A2A62951800CE70B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBED0192A62951800CE70B4 /* Preview Assets.xcassets */; };
+		3CBED0212A62984A00CE70B4 /* MysticPuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBED0202A62984A00CE70B4 /* MysticPuzzleModel.swift */; };
+		3CBED0232A629ACF00CE70B4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBED0222A629ACF00CE70B4 /* Extensions.swift */; };
+		3CBED0252A629D1600CE70B4 /* MysticPuzzleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBED0242A629D1600CE70B4 /* MysticPuzzleViewModel.swift */; };
+		3CBED0272A6535FF00CE70B4 /* ChalkboardSE.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3CBED0262A6535FF00CE70B4 /* ChalkboardSE.ttc */; };
+		3CBED0292A66897A00CE70B4 /* mixkit-glass-plate-slide-1527.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3CBED0282A66897A00CE70B4 /* mixkit-glass-plate-slide-1527.wav */; };
+		3CBED02C2A66899E00CE70B4 /* MysticPuzzleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBED02B2A66899E00CE70B4 /* MysticPuzzleIcon.png */; };
+		3CBED02E2A6689A800CE70B4 /* MysticPuzzleLaunchBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBED02D2A6689A800CE70B4 /* MysticPuzzleLaunchBackground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CBED00E2A62951600CE70B4 /* MysticPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysticPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBED0112A62951600CE70B4 /* MysticPuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticPuzzleApp.swift; sourceTree = "<group>"; };
+		3CBED0132A62951600CE70B4 /* MysticPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticPuzzleView.swift; sourceTree = "<group>"; };
+		3CBED0152A62951800CE70B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CBED0172A62951800CE70B4 /* MysticPuzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MysticPuzzle.entitlements; sourceTree = "<group>"; };
+		3CBED0192A62951800CE70B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CBED0202A62984A00CE70B4 /* MysticPuzzleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticPuzzleModel.swift; sourceTree = "<group>"; };
+		3CBED0222A629ACF00CE70B4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3CBED0242A629D1600CE70B4 /* MysticPuzzleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticPuzzleViewModel.swift; sourceTree = "<group>"; };
+		3CBED0262A6535FF00CE70B4 /* ChalkboardSE.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChalkboardSE.ttc; sourceTree = "<group>"; };
+		3CBED0282A66897A00CE70B4 /* mixkit-glass-plate-slide-1527.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-glass-plate-slide-1527.wav"; sourceTree = "<group>"; };
+		3CBED02A2A66899500CE70B4 /* SlideTile.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SlideTile.mp4; sourceTree = "<group>"; };
+		3CBED02B2A66899E00CE70B4 /* MysticPuzzleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MysticPuzzleIcon.png; sourceTree = "<group>"; };
+		3CBED02D2A6689A800CE70B4 /* MysticPuzzleLaunchBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MysticPuzzleLaunchBackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CBED00B2A62951600CE70B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CBED0052A62951600CE70B4 = {
+			isa = PBXGroup;
+			children = (
+				3CBED0102A62951600CE70B4 /* MysticPuzzle */,
+				3CBED00F2A62951600CE70B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CBED00F2A62951600CE70B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CBED00E2A62951600CE70B4 /* MysticPuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CBED0102A62951600CE70B4 /* MysticPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				3CBED0202A62984A00CE70B4 /* MysticPuzzleModel.swift */,
+				3CBED0132A62951600CE70B4 /* MysticPuzzleView.swift */,
+				3CBED0242A629D1600CE70B4 /* MysticPuzzleViewModel.swift */,
+				3CBED0222A629ACF00CE70B4 /* Extensions.swift */,
+				3CBED0112A62951600CE70B4 /* MysticPuzzleApp.swift */,
+				3CBED0262A6535FF00CE70B4 /* ChalkboardSE.ttc */,
+				3CBED02A2A66899500CE70B4 /* SlideTile.mp4 */,
+				3CBED0282A66897A00CE70B4 /* mixkit-glass-plate-slide-1527.wav */,
+				3CBED02D2A6689A800CE70B4 /* MysticPuzzleLaunchBackground.png */,
+				3CBED02B2A66899E00CE70B4 /* MysticPuzzleIcon.png */,
+				3CBED0152A62951800CE70B4 /* Assets.xcassets */,
+				3CBED0172A62951800CE70B4 /* MysticPuzzle.entitlements */,
+				3CBED0182A62951800CE70B4 /* Preview Content */,
+			);
+			path = MysticPuzzle;
+			sourceTree = "<group>";
+		};
+		3CBED0182A62951800CE70B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CBED0192A62951800CE70B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CBED00D2A62951600CE70B4 /* MysticPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBED01D2A62951800CE70B4 /* Build configuration list for PBXNativeTarget "MysticPuzzle" */;
+			buildPhases = (
+				3CBED00A2A62951600CE70B4 /* Sources */,
+				3CBED00B2A62951600CE70B4 /* Frameworks */,
+				3CBED00C2A62951600CE70B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MysticPuzzle;
+			productName = MysticPuzzle;
+			productReference = 3CBED00E2A62951600CE70B4 /* MysticPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CBED0062A62951600CE70B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3CBED00D2A62951600CE70B4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CBED0092A62951600CE70B4 /* Build configuration list for PBXProject "MysticPuzzle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CBED0052A62951600CE70B4;
+			productRefGroup = 3CBED00F2A62951600CE70B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CBED00D2A62951600CE70B4 /* MysticPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CBED00C2A62951600CE70B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBED01A2A62951800CE70B4 /* Preview Assets.xcassets in Resources */,
+				3CBED0292A66897A00CE70B4 /* mixkit-glass-plate-slide-1527.wav in Resources */,
+				3CBED02E2A6689A800CE70B4 /* MysticPuzzleLaunchBackground.png in Resources */,
+				3CBED0162A62951800CE70B4 /* Assets.xcassets in Resources */,
+				3CBED0272A6535FF00CE70B4 /* ChalkboardSE.ttc in Resources */,
+				3CBED02C2A66899E00CE70B4 /* MysticPuzzleIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CBED00A2A62951600CE70B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBED0142A62951600CE70B4 /* MysticPuzzleView.swift in Sources */,
+				3CBED0252A629D1600CE70B4 /* MysticPuzzleViewModel.swift in Sources */,
+				3CBED0122A62951600CE70B4 /* MysticPuzzleApp.swift in Sources */,
+				3CBED0212A62984A00CE70B4 /* MysticPuzzleModel.swift in Sources */,
+				3CBED0232A629ACF00CE70B4 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CBED01B2A62951800CE70B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CBED01C2A62951800CE70B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3CBED01E2A62951800CE70B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MysticPuzzle/MysticPuzzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MysticPuzzle/Preview Content\"";
+				DEVELOPMENT_TEAM = K62327QFK2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yerycastro.MysticPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CBED01F2A62951800CE70B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MysticPuzzle/MysticPuzzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MysticPuzzle/Preview Content\"";
+				DEVELOPMENT_TEAM = K62327QFK2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yerycastro.MysticPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CBED0092A62951600CE70B4 /* Build configuration list for PBXProject "MysticPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBED01B2A62951800CE70B4 /* Debug */,
+				3CBED01C2A62951800CE70B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBED01D2A62951800CE70B4 /* Build configuration list for PBXNativeTarget "MysticPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBED01E2A62951800CE70B4 /* Debug */,
+				3CBED01F2A62951800CE70B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CBED0062A62951600CE70B4 /* Project object */;
+}
